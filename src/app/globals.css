@@ -25,3 +25,59 @@ body {
     text-wrap: balance;
   }
 }
+
+.slick-dots {
+  bottom: 25px !important;
+}
+
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 16px !important;
+  content: "•";
+  color: black;
+}
+
+.sub_banner_transition::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  display: block;
+  width: 50%;
+  height: 100%;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(255, 255, 255, 0)),
+    to(rgba(255, 255, 255, 0.3))
+  );
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+  z-index: 10;
+}
+
+.sub_banner_transition:hover::before {
+  animation: slide-in 1s ease forwards;
+}
+
+.custom_menu_modal .ant-modal-content {
+  background: #171717 !important;
+}
+.custom_menu_modal .ant-modal-title {
+  background: #171717 !important;
+}
+
+@keyframes slide-in {
+  from {
+    left: -100%; /* Start from off-screen */
+  }
+  to {
+    left: 150%; /* End at the original position */
+  }
+}
