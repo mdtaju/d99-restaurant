@@ -25,7 +25,7 @@ const MenuDialog = ({ menu }: { menu: MenuCategory }) => {
         centered={true}
         title={
           <p
-            className={`text-2xl md:text-3xl font-medium text-themePrimary ${robotoSlab.className}`}>{`${menu.title} Menu`}</p>
+            className={`text-2xl md:text-3xl lg:text-4xl font-medium text-themePrimary uppercase ${robotoSlab.className}`}>{`${menu.title} Menu`}</p>
         }
         open={isModalOpen}
         onCancel={handleCancel}
@@ -48,10 +48,19 @@ const MenuDialog = ({ menu }: { menu: MenuCategory }) => {
             </svg>
           </button>
         }>
-        <ul
-          className={`mt-4 list-disc list-inside text-lg text-white ${robotoSlab.className}`}>
+        <ul className={`${robotoSlab.className}`}>
           {menu.menuItems.map((item, i) => (
-            <li key={i}>{item.name}</li>
+            <li key={i} className="mt-4 uppercase">
+              <span className="text-themePrimary text-xl md:text-2xl">
+                {item.menuName}
+              </span>
+              <ul
+                className={`mt-2 list-disc list-inside text-lg text-white pl-4`}>
+                {item.items.map((I, i) => (
+                  <li key={i}>{I.name}</li>
+                ))}
+              </ul>
+            </li>
           ))}
         </ul>
       </Modal>
