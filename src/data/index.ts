@@ -1,4 +1,4 @@
-import { MenuCategory } from "./types";
+import { ChefsType, MenuCategory, MustTryItemType } from "./types";
 
 export const nav_items = [
   {
@@ -1170,5 +1170,103 @@ export const menuData: MenuCategory[] = [
         ],
       },
     ],
+  },
+];
+
+export const mustTryItems: MustTryItemType[] = [
+  {
+    name: "Paner Peas Corn Pizza Dosa",
+    imgPath: "/images/slide-1.jpg",
+    price: 129,
+  },
+  {
+    name: "Fries-Stick Dosa",
+    imgPath: "/images/slide-2.jpg",
+    price: 129,
+  },
+  {
+    name: "Creamy Pasta Dosa",
+    imgPath: "/images/slide-3.jpg",
+    price: 129,
+  },
+  {
+    name: "Chettnad Open Masala Dosa",
+    imgPath: "/images/slide-4.jpg",
+    price: 129,
+  },
+  {
+    name: "Mix-Veg Briyani Dosa",
+    imgPath: "/images/slide-5.jpg",
+    price: 129,
+  },
+  {
+    name: "Hat-Trick Dosa",
+    imgPath: "/images/slide-6.jpg",
+    price: 129,
+  },
+  {
+    name: "Mac N Cheese Pasta",
+    imgPath: "/images/slide-1.jpg",
+    price: 129,
+  },
+  {
+    name: "Choco Almond Waff Cake",
+    imgPath: "/images/slide-2.jpg",
+    price: 129,
+  },
+  {
+    name: "Peri-Peri Fries",
+    imgPath: "/images/slide-3.jpg",
+    price: 129,
+  },
+  {
+    name: "Corn Cheese Fried Momos",
+    imgPath: "/images/slide-4.jpg",
+    price: 129,
+  },
+  {
+    name: "Flavoured Mojtos",
+    imgPath: "/images/slide-5.jpg",
+    price: 129,
+  },
+  {
+    name: "Veggie Special Platter",
+    imgPath: "/images/slide-6.jpg",
+    price: 129,
+  },
+];
+
+export const chefsData: ChefsType[] = [
+  {
+    name: "Nemo Enim",
+    imgPath: "/images/team-1.png",
+    post: "Manager",
+    facebookLink: "#",
+    xLink: "#",
+    instagramLink: "#",
+  },
+  {
+    name: "Monic Marty",
+    imgPath: "/images/team-2.png",
+    post: "Assistent",
+    facebookLink: "#",
+    xLink: "#",
+    instagramLink: "#",
+  },
+  {
+    name: "Vilorano Jeo",
+    imgPath: "/images/team-3.png",
+    post: "Designer",
+    facebookLink: "#",
+    xLink: "#",
+    instagramLink: "#",
+  },
+  {
+    name: "Reema Cyrus",
+    imgPath: "/images/team-4.png",
+    post: "CEO",
+    facebookLink: "#",
+    xLink: "#",
+    instagramLink: "#",
   },
 ];

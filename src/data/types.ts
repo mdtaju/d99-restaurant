@@ -13,3 +13,18 @@ export type MenuCategory = {
   title: string;
   menuItems: MenuItems[];
 };
+
+export type MustTryItemType = {
+  imgPath: string;
+  name: string;
+  price: number;
+};
+
+export type ChefsType = {
+  name: string;
+  imgPath: string;
+  post: string;
+  facebookLink: string;
+  xLink: string;
+  instagramLink: string;
+};
