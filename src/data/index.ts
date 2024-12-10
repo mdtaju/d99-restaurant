@@ -1181,7 +1181,7 @@ export const menuData: MenuCategory[] = [
 export const mustTryItems: MustTryItemType[] = [
   {
     name: "Paner Peas Corn Pizza Dosa",
-    imgPath: "/images/slide-1.jpg",
+    imgPath: "/images/file.jpg",
     price: 129,
   },
   {

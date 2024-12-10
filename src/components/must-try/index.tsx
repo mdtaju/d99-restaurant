@@ -43,7 +43,7 @@ const MustTry = () => {
     <div className="py-[50px]">
       <div className="container mx-auto">
         <h2
-          className={`text-2xl lg:text-3xl font-medium text-center uppercase tracking-wider ${roboto.className}`}>
+          className={`text-2xl lg:text-5xl font-semibold text-center uppercase tracking-wider ${roboto.className}`}>
           Must Try
         </h2>
         <div className="px-4 lg:px-0 mt-12">
