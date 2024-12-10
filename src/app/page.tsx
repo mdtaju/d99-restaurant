@@ -1,4 +1,5 @@
 import Chefs from "@/components/Chefs";
+import CustomerReviews from "@/components/customer-reviews";
 import Delights from "@/components/delights";
 import Menus from "@/components/menus";
 import MustTry from "@/components/must-try";
@@ -13,6 +14,7 @@ export default function Home() {
         <Menus />
         <MustTry />
         <Chefs />
+        <CustomerReviews />
       </section>
     </main>
   );

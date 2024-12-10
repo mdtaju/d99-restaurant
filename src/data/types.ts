@@ -28,3 +28,9 @@ export type ChefsType = {
   xLink: string;
   instagramLink: string;
 };
+
+export type CustomerReviewType = {
+  message: string;
+  name: string;
+  occupation: string;
+};

@@ -1,4 +1,9 @@
-import { ChefsType, MenuCategory, MustTryItemType } from "./types";
+import {
+  ChefsType,
+  CustomerReviewType,
+  MenuCategory,
+  MustTryItemType,
+} from "./types";
 
 export const nav_items = [
   {
@@ -1268,5 +1273,26 @@ export const chefsData: ChefsType[] = [
     facebookLink: "#",
     xLink: "#",
     instagramLink: "#",
+  },
+];
+
+export const customerReview: CustomerReviewType[] = [
+  {
+    message:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages ofeven slightly available.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo",
+    name: "Pushpa",
+    occupation: "Finance Manager",
+  },
+  {
+    message:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages ofeven slightly available.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo",
+    name: "Bahubali",
+    occupation: "Teacher",
+  },
+  {
+    message:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages ofeven slightly available.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo",
+    name: "Hera Peri",
+    occupation: "Student",
   },
 ];
