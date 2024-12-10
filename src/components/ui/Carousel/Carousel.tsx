@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import Slider from "react-slick";
+import Slider, { Settings } from "react-slick";
 
 type propsTypes = {
-  settings: {};
+  settings: Settings;
   children: React.ReactNode;
 };
 

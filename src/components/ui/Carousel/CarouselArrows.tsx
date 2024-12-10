@@ -1,5 +1,6 @@
 "use client";
 type propsTypes = {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onClick: any;
   className: string;
 };
