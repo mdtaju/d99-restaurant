@@ -21,8 +21,11 @@ const CustomerReviews = () => {
     prevArrow: <CarouselPreviousBtn onClick={undefined} className="" />,
   };
   return (
-    <div className="py-[50px]">
+    <div className="py-[80px]">
       <div className="w-full max-w-[940px] mx-auto px-4 md:px-0">
+        <h2 className={`main_title mb-[50px] ${roboto.className}`}>
+          Our Happy Customer
+        </h2>
         <Carousel settings={slickSettings}>
           {customerReview.map((item, i) => (
             <div key={i} className="text-center">

@@ -34,3 +34,14 @@ export type CustomerReviewType = {
   name: string;
   occupation: string;
 };
+
+export type BranchesType = {
+  imgPath: string;
+  name: string;
+  address: string;
+  phone: string;
+  mapLocation: string;
+  whatsApp: string;
+  zomatoUrl: string;
+  swiggyUrl: string;
+};

@@ -18,7 +18,7 @@ const MenuDialog = ({ menu }: { menu: MenuCategory }) => {
     <>
       <button
         onClick={showModal}
-        className="text-sm font-medium px-4 py-1 bg-themePrimary text-black hover:brightness-105 transition-all mt-4">
+        className={`text-sm font-medium px-4 py-1 bg-themePrimary text-black hover:brightness-105 transition-all mt-4`}>
         View List
       </button>
       <Modal

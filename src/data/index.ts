@@ -1,4 +1,5 @@
 import {
+  BranchesType,
   ChefsType,
   CustomerReviewType,
   MenuCategory,
@@ -23,12 +24,12 @@ export const nav_items = [
     link: "/#items",
   },
   {
-    name: "Chefs",
-    link: "/#chefs",
+    name: "Branch",
+    link: "/#branch",
   },
   {
-    name: "Contact",
-    link: "/contact",
+    name: "Chefs",
+    link: "/#chefs",
   },
 ];
 
@@ -739,7 +740,7 @@ export const menuData: MenuCategory[] = [
         ],
       },
       {
-        menuName: "JUMBOSHAKES",
+        menuName: "JUMBO SHAKES",
         items: [
           {
             name: "CHOCO JUMBO SHAKE",
@@ -1294,5 +1295,38 @@ export const customerReview: CustomerReviewType[] = [
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages ofeven slightly available.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo",
     name: "Hera Peri",
     occupation: "Student",
+  },
+];
+
+export const branchesData: BranchesType[] = [
+  {
+    name: "Fusion Delights",
+    imgPath: "/images/d99-restaurant.jpg",
+    address: "Pallavaram, Chennai - 43",
+    mapLocation: "",
+    phone: "",
+    whatsApp: "#",
+    zomatoUrl: "#",
+    swiggyUrl: "#",
+  },
+  {
+    name: "Symphony Of Delights",
+    imgPath: "/images/d99-restaurant.jpg",
+    address: "Ramapuram, Chennai - 89",
+    mapLocation: "",
+    phone: "",
+    whatsApp: "#",
+    zomatoUrl: "#",
+    swiggyUrl: "#",
+  },
+  {
+    name: "Twisty Delights",
+    imgPath: "/images/d99-restaurant.jpg",
+    address: "Pammal, Chennai - 89",
+    mapLocation: "",
+    phone: "",
+    whatsApp: "#",
+    zomatoUrl: "#",
+    swiggyUrl: "#",
   },
 ];

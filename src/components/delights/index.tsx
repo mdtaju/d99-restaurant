@@ -4,8 +4,7 @@ const Delights = () => {
   return (
     <div className="pt-[80px] pb-[50px]">
       <div className="w-full max-w-[950px] mx-auto px-4 lg:px-0 text-center">
-        <h2
-          className={`text-2xl md:text-3xl font-medium uppercase tracking-wider ${roboto.className}`}>
+        <h2 className={`main_title ${roboto.className}`}>
           Our Culinary Delights
         </h2>
         <div className="mt-4 text-[16px]">

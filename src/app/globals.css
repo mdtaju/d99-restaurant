@@ -26,6 +26,12 @@ body {
   }
 }
 
+@layer components {
+  .main_title {
+    @apply text-2xl font-medium md:text-4xl lg:text-5xl lg:font-semibold uppercase tracking-wider text-center;
+  }
+}
+
 .slick-dots {
   bottom: 25px !important;
 }

@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Header from "@/components/ui/header";
 import type { Metadata } from "next";
 import "slick-carousel/slick/slick-theme.css";
@@ -31,6 +32,7 @@ export default function RootLayout({
         className={`${robotoSlab.className} {geistSans.variable}  {geistMono.variable}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
