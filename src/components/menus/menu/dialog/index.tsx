@@ -19,14 +19,10 @@ const MenuDialog = ({ menu }: { menu: MenuCategory }) => {
       <button
         onClick={showModal}
         className={`text-sm font-medium px-4 py-1 bg-themePrimary text-black hover:brightness-105 transition-all mt-4`}>
-        View List
+        View Menu
       </button>
       <Modal
         centered={true}
-        title={
-          <p
-            className={`text-2xl md:text-3xl lg:text-4xl font-medium text-themePrimary uppercase ${robotoSlab.className}`}>{`${menu.title} Menu`}</p>
-        }
         open={isModalOpen}
         onCancel={handleCancel}
         footer={null}
@@ -54,8 +50,7 @@ const MenuDialog = ({ menu }: { menu: MenuCategory }) => {
               <span className="text-themePrimary text-xl md:text-2xl">
                 {item.menuName}
               </span>
-              <ul
-                className={`mt-2 list-disc list-inside text-lg text-white pl-4`}>
+              <ul className={`mt-2 list-none text-sm md:text-lg text-white`}>
                 {item.items.map((I, i) => (
                   <li key={i}>{I.name}</li>
                 ))}

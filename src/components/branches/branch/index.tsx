@@ -41,20 +41,21 @@ const Branch = ({ item }: { item: BranchesType }) => {
             <p className="text-xl font-medium text-[#494949]">{item.address}</p>
           </div>
           <div
-            className={`flex flex-wrap gap-3 items-center mt-6 ${roboto.className}`}>
-            <button className="px-4 py-1 text-xs text-gray-300 bg-themeBlack rounded-[4px] uppercase hover:brightness-110 transition-all">
+            className={`flex flex-wrap gap-3 items-center mt-6 md:mt-10 ${roboto.className}`}>
+            <button className="px-4 py-1 text-sm text-gray-300 bg-themeBlack rounded-[4px] uppercase hover:brightness-110 transition-all">
               Call Now
             </button>
-            <button className="px-4 py-1 text-xs text-gray-300 bg-themeBlack rounded-[4px] uppercase hover:brightness-110 transition-all">
+            <button className="px-4 py-1 text-sm text-gray-300 bg-themeBlack rounded-[4px] uppercase hover:brightness-110 transition-all">
               Locate Us
             </button>
-            <button className="px-4 py-1 text-xs text-gray-300 bg-themeBlack rounded-[4px] uppercase hover:brightness-110 transition-all">
+            <button className="px-4 py-1 text-sm text-gray-300 bg-themeBlack rounded-[4px] uppercase hover:brightness-110 transition-all">
               Reserve Table
             </button>
           </div>
         </div>
         <div className="pl-4 border-l-2 border-themeBlack flex flex-col justify-center">
-          <h5 className={`uppercase text-2xl ${roboto.className}`}>
+          <h5
+            className={`uppercase text-2xl font-semibold ${roboto.className}`}>
             Order Now
           </h5>
           <div className="flex items-center gap-4 mt-[20px] w-fit mx-auto">

@@ -35,7 +35,7 @@ const CustomerReviews = () => {
                 width={66}
                 className="mx-auto"
               />
-              <h4 className="mt-8 text-gray-600">{item.message}</h4>
+              <h4 className="mt-8 text-gray-600 text-lg">{item.message}</h4>
               <div className="flex items-center gap-1 w-fit mx-auto mt-4 text-orange-400">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

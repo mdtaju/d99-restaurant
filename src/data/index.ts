@@ -28,15 +28,15 @@ export const nav_items = [
     link: "/#branch",
   },
   {
-    name: "Chefs",
-    link: "/#chefs",
+    name: "Team",
+    link: "/about#team",
   },
 ];
 
 export const menuData: MenuCategory[] = [
   {
     imgPath: "/images/dosass.jpg",
-    title: "Dosass",
+    title: "Dosas",
     menuItems: [
       {
         menuName: "PIZZA/PASTA DOSAS",
@@ -1096,7 +1096,7 @@ export const menuData: MenuCategory[] = [
   },
   {
     imgPath: "/images/bits.jpg",
-    title: "Bits",
+    title: "Bites",
     menuItems: [
       {
         menuName: "FRY-YAY",

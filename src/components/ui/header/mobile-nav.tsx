@@ -54,7 +54,7 @@ const MobileNav = () => {
               <li
                 key={i}
                 onClick={() => setToggle(false)}
-                className={`${
+                className={`text-2xl ${
                   pathname === item.link
                     ? "text-themePrimary"
                     : "text-themeBlack"

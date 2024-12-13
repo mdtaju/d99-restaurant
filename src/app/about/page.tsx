@@ -1,5 +1,13 @@
+import Chefs from "@/components/Chefs";
+import Delights from "@/components/delights";
+
 const About = () => {
-  return <div>About</div>;
+  return (
+    <main>
+      <Delights />
+      <Chefs />
+    </main>
+  );
 };
 
 export default About;

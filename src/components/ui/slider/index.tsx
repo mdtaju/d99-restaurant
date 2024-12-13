@@ -63,11 +63,6 @@ function SlierBanner() {
                   <span className="text-3xl lg:text-7xl uppercase">
                     {item.item}
                   </span>
-                  <br />
-                  <button
-                    className={`${robotoSlab.className} bg-black hover:bg-themePrimary text-white hover:text-black transition-all px-5 py-2 text-[16px] mt-4`}>
-                    Discover More
-                  </button>
                 </div>
               </div>
             </div>

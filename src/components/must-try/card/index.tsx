@@ -17,7 +17,6 @@ const MustTruItem = ({ item }: { item: MustTryItemType }) => {
         </div>
       </div>
       <h4 className="text-center mt-4 text-xl font-medium">{item.name}</h4>
-      <p className="text-center text-lg">₹ {item.price}</p>
     </div>
   );
 };

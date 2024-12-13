@@ -11,7 +11,7 @@ const Menu = ({ menu }: { menu: MenuCategory }) => {
       <div className="w-full h-full bg-black bg-opacity-40 grid place-items-center sub_banner_transition transition-all duration-300 overflow-hidden relative z-10">
         <div className="text-center">
           <h2 className="text-2xl md:text-4xl text-white font-semibold capitalize">
-            {`${menu.title} menu`}
+            {`${menu.title}`}
           </h2>
           <MenuDialog menu={menu} />
         </div>

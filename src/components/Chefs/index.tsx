@@ -6,9 +6,9 @@ import Link from "next/link";
 
 const Chefs = () => {
   return (
-    <div className="py-[50px]">
+    <div className="py-[50px]" id="team">
       <div className="container mx-auto">
-        <h2 className={`main_title ${roboto.className}`}>Finest Best Chefs</h2>
+        <h2 className={`main_title ${roboto.className}`}>Our Team</h2>
         <ul className="w-full max-w-[1230px] mx-auto flex items-center gap-4 justify-between overflow-x-scroll mt-[80px] no-scrollbar">
           {chefsData.map((chef, i) => (
             <li key={i}>

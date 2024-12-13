@@ -13,9 +13,12 @@ const Footer = () => {
       style={{ backgroundImage: `url('/images/footer-bg.jpg')` }}>
       <div className="w-full max-w-[980px] mx-auto px-4">
         <div className="w-full pb-[50px] border-b border-gray-600 text-center">
+          <h1 className="text-center text-3xl md:text-4xl font-semibold text-themePrimary uppercase">
+            Interested in partnering with us ?
+          </h1>
           <button
-            className={`bg-themePrimary text-themeBlack text-lg uppercase font-medium px-6 py-2 rounded-[4px] ${roboto.className}`}>
-            JOIN US
+            className={`bg-themePrimary text-themeBlack text-lg uppercase font-medium px-6 py-2 rounded-[4px] mt-6 ${roboto.className}`}>
+            Franchise Enquiry
           </button>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-[50px] border-b border-gray-600">
@@ -47,9 +50,12 @@ const Footer = () => {
         {/* bottom links */}
         <div className="text-white font-medium text-sm mt-[50px] text-center">
           <ul className="flex items-center divide-x divide-white w-fit mx-auto mb-3">
-            <li className="px-6">Home</li>
-            <li className="px-6">About</li>
-            <li className="px-6">Join</li>
+            <li className="px-6 hover:underline">
+              <Link href={"/"}>Home</Link>
+            </li>
+            <li className="px-6 hover:underline">
+              <Link href={"/about"}>About</Link>
+            </li>
           </ul>
           <p>© 2024 VegPoint_default - WordPress Theme by Avanam</p>
         </div>

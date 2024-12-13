@@ -2,12 +2,17 @@
 import { nav_items } from "@/data";
 import Image from "next/legacy/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import MobileNav from "./mobile-nav";
 import Logo from "/public/images/logo.svg";
 
 const Header = () => {
   const [pathname, setPathname] = useState("/");
+
+  useEffect(() => {
+    const location = window.location.pathname;
+    setPathname(location);
+  }, []);
 
   return (
     <div>
@@ -26,20 +31,20 @@ const Header = () => {
         {/* mobile nav end */}
       </header>
       {/* nav bar */}
-      <div className="bg-[#323232] border-t border-gray-400 hidden md:block">
+      <div className="bg-themePrimary border-t border-gray-400 hidden md:block">
         {/* desktop nav start */}
         <nav className="container mx-auto px-4 lg:px-0">
           <ul className="flex items-center gap-4 divide-x divide-gray-400 w-fit mx-auto">
             {nav_items.map((item, i) => {
-              console.log("item", item.link);
-              console.log("pathname", pathname);
+              // console.log("item", item.link);
+              // console.log("pathname", pathname);
               return (
                 <li
                   key={i}
                   onClick={() => setPathname(item.link)}
                   className={`${
-                    pathname === item.link ? "text-themePrimary" : "text-white"
-                  } p-4 uppercase text-lg text-white hover:text-themePrimary transition-all`}>
+                    pathname === item.link ? "text-white" : "text-black"
+                  } p-4 uppercase text-lg hover:text-white transition-all`}>
                   <Link href={item.link}>{item.name}</Link>
                 </li>
               );

@@ -40,9 +40,12 @@ const MustTry = () => {
     ],
   };
   return (
-    <div id="items" className="py-[80px]">
+    <div id="items" className="py-[60px]">
       <div className="container mx-auto">
         <h2 className={`main_title ${roboto.className}`}>Must Try</h2>
+        <div className="px-3 py-1 text-sm rounded-[4px] bg-themePrimary text-black w-fit mx-auto text-center mt-4">
+          {`"Not Sure What to Order? These best-sellers never disappoint!"`}
+        </div>
         <div className="px-4 lg:px-0 mt-12">
           <Carousel settings={slickSettings}>
             {mustTryItems.map((item, i) => (
