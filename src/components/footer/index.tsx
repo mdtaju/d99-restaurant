@@ -2,8 +2,8 @@ import { roboto } from "@/app/fonts/font-variables";
 import { FacebookFilled, InstagramFilled } from "@ant-design/icons";
 import Image from "next/image";
 import Link from "next/link";
+import Logo from "/public/images/D99-RoundLogo.png";
 import LocationIcon from "/public/images/location.png";
-import Logo from "/public/images/logo.svg";
 import PhoneIcon from "/public/images/phone.png";
 
 const Footer = () => {
@@ -30,7 +30,13 @@ const Footer = () => {
           </div>
           {/* logo */}
           <div className="border-y border-x-0 md:border-y-0 md:border-x border-gray-600 px-0 py-4 md:px-4 md:py-0">
-            <Image src={Logo} alt="d99-restaurant" className="mx-auto" />
+            <Image
+              src={Logo}
+              alt="d99-restaurant"
+              width={120}
+              height={120}
+              className="mx-auto"
+            />
             <div className="flex items-center gap-3 w-fit mx-auto mt-6">
               <Link href={"#"}>
                 <FacebookFilled className="text-white text-xl hover:text-themePrimary transition-all" />

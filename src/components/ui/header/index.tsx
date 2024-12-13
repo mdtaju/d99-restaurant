@@ -4,7 +4,8 @@ import Image from "next/legacy/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import MobileNav from "./mobile-nav";
-import Logo from "/public/images/logo.svg";
+import Logo from "/public/images/D99-RoundLogo.png";
+import Banner from "/public/images/DDDlogo.png";
 
 const Header = () => {
   const [pathname, setPathname] = useState("/");
@@ -16,15 +17,28 @@ const Header = () => {
 
   return (
     <div>
-      <header className="bg-themeBlack flex justify-between items-center md:justify-center p-4">
-        {/* logo */}
-        <div className="w-[150px] h-[80px] md:h-[112px] md:w-[208px] relative">
-          <Image
-            src={Logo}
-            alt="d99-restaurant-logo"
-            layout="fill"
-            className="absolute w-full h-full object-contain"
-          />
+      <header className="bg-themeBlack p-4 flex items-center justify-between gap-4">
+        <div className="mx-auto flex items-center justify-center gap-4 w-full max-w-[1080px]">
+          {/* logo */}
+          <div className="w-[80px] h-[80px] md:h-[112px] md:w-[112px] relative">
+            <Image
+              src={Logo}
+              alt="d99-restaurant-logo"
+              layout="fill"
+              className="absolute w-full h-full object-contain"
+              priority
+            />
+          </div>
+          {/* banner */}
+          <div className="w-full max-w-[750px] h-[80px] relative">
+            <Image
+              src={Banner}
+              alt="d99-restaurant-banner"
+              layout="fill"
+              className="absolute w-fit h-full object-contain"
+              priority
+            />
+          </div>
         </div>
         {/* mobile nav start */}
         <MobileNav />
