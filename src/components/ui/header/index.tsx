@@ -4,8 +4,8 @@ import Image from "next/legacy/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import MobileNav from "./mobile-nav";
-import Logo from "/public/images/D99-RoundLogo.png";
-import Banner from "/public/images/DDDlogo.png";
+import Banner from "/public/images/D99-banner.png";
+import Logo from "/public/images/D99LOGO-black.svg";
 
 const Header = () => {
   const [pathname, setPathname] = useState("/");
@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <div>
-      <header className="bg-themeBlack p-4 flex items-center justify-between gap-4">
+      <header className="bg-[#000] p-4 flex items-center justify-between gap-4">
         <div className="mx-auto flex items-center justify-center gap-4 w-full max-w-[1080px]">
           {/* logo */}
           <div className="w-[80px] h-[80px] md:h-[112px] md:w-[112px] relative">
@@ -45,7 +45,7 @@ const Header = () => {
         {/* mobile nav end */}
       </header>
       {/* nav bar */}
-      <div className="bg-themePrimary border-t border-gray-400 hidden md:block">
+      <div className="bg-[#323232] border-t border-gray-400 hidden md:block">
         {/* desktop nav start */}
         <nav className="container mx-auto px-4 lg:px-0">
           <ul className="flex items-center gap-4 divide-x divide-gray-400 w-fit mx-auto">
@@ -57,7 +57,7 @@ const Header = () => {
                   key={i}
                   onClick={() => setPathname(item.link)}
                   className={`${
-                    pathname === item.link ? "text-white" : "text-black"
+                    pathname === item.link ? "text-themePrimary" : "text-white"
                   } p-4 uppercase text-lg hover:text-white transition-all`}>
                   <Link href={item.link}>{item.name}</Link>
                 </li>

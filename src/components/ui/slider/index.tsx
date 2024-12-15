@@ -1,22 +1,7 @@
 "use client";
-import { roboto, robotoSlab } from "@/app/fonts/font-variables";
-import Image from "next/image";
+import { roboto } from "@/app/fonts/font-variables";
+import { sliderData } from "@/data";
 import Slider from "react-slick";
-import LeftLine from "/public/images/leftline.png";
-import RightLine from "/public/images/rightline.png";
-
-const sliderData = [
-  {
-    imgPath: "/images/main-banner-1.jpg",
-    foodName: "Fries-Stick",
-    item: "Dosa",
-  },
-  {
-    imgPath: "/images/main-banner-2.jpg",
-    foodName: "Feri-Feri",
-    item: "Fries",
-  },
-];
 
 function SlierBanner() {
   const settings = {
@@ -34,13 +19,14 @@ function SlierBanner() {
       <div className="slider-container">
         <Slider {...settings}>
           {sliderData.map((item, i) => (
-            <div key={i} className="w-full h-[266px] md:h-[600px] lg:h-[700px]">
+            <div key={i} className="w-full bg-themePrimary">
               <div
-                className="w-full bg-cover h-full bg-center grid place-items-center"
+                className="w-full h-[220px] md:h-[450px] lg:h-[520px] xl:h-[680px] bg-contain bg-center bg-no-repeat"
                 style={{
                   backgroundImage: `url(${item.imgPath})`,
+                  backgroundSize: "100% auto",
                 }}>
-                <div className="text-center">
+                {/* <div className="text-center">
                   <div className="relative flex items-center gap-4 overflow-hidden">
                     <Image
                       src={LeftLine}
@@ -57,13 +43,7 @@ function SlierBanner() {
                       className="hidden md:block"
                     />
                   </div>
-                  <h1 className="text-4xl lg:text-8xl font-medium md:font-semibold uppercase mb-4 mt-5">
-                    {item.foodName}
-                  </h1>
-                  <span className="text-3xl lg:text-7xl uppercase">
-                    {item.item}
-                  </span>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

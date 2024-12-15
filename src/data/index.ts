@@ -2,8 +2,10 @@ import {
   BranchesType,
   ChefsType,
   CustomerReviewType,
+  FaqsType,
   MenuCategory,
   MustTryItemType,
+  SliderType,
 } from "./types";
 
 export const nav_items = [
@@ -33,9 +35,32 @@ export const nav_items = [
   },
 ];
 
+export const sliderData: SliderType[] = [
+  {
+    imgPath: "/images/Highlight.jpg",
+    title: "",
+    subTitle: "",
+  },
+  {
+    imgPath: "/images/Highlight-1.jpg",
+    title: "",
+    subTitle: "",
+  },
+  {
+    imgPath: "/images/Highlight-2.jpg",
+    title: "",
+    subTitle: "",
+  },
+  {
+    imgPath: "/images/Highlight-3.jpg",
+    title: "",
+    subTitle: "",
+  },
+];
+
 export const menuData: MenuCategory[] = [
   {
-    imgPath: "/images/dosass.jpg",
+    imgPath: "/images/Dosas-Menu.jpg",
     title: "Dosas",
     menuItems: [
       {
@@ -503,7 +528,7 @@ export const menuData: MenuCategory[] = [
     ],
   },
   {
-    imgPath: "/images/drinks.jpg",
+    imgPath: "/images/Drinks-Menu.jpg",
     title: "Drinks",
     menuItems: [
       {
@@ -755,7 +780,7 @@ export const menuData: MenuCategory[] = [
     ],
   },
   {
-    imgPath: "/images/desserts.jpg",
+    imgPath: "/images/Desserts-Menu.jpg",
     title: "Desserts",
     menuItems: [
       {
@@ -976,7 +1001,7 @@ export const menuData: MenuCategory[] = [
     ],
   },
   {
-    imgPath: "/images/bowls.jpg",
+    imgPath: "/images/Bowls-Menu.jpg",
     title: "Bowls",
     menuItems: [
       {
@@ -1040,7 +1065,7 @@ export const menuData: MenuCategory[] = [
     ],
   },
   {
-    imgPath: "/images/breads.jpg",
+    imgPath: "/images/Breads-Menu.jpg",
     title: "Breads",
     menuItems: [
       {
@@ -1095,7 +1120,7 @@ export const menuData: MenuCategory[] = [
     ],
   },
   {
-    imgPath: "/images/bits.jpg",
+    imgPath: "/images/Bites-Menu.jpg",
     title: "Bites",
     menuItems: [
       {
@@ -1280,21 +1305,62 @@ export const chefsData: ChefsType[] = [
 export const customerReview: CustomerReviewType[] = [
   {
     message:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages ofeven slightly available.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo",
-    name: "Pushpa",
-    occupation: "Finance Manager",
+      "I ordered paneer-briyani dosa which tasted amazinggg!! 😋😋😋 Highly recommended for foodies..!!! Though the space is compact, the ambience is impressive.�",
+    name: "Sudha B",
+    occupation: "Fusion Delights",
   },
   {
     message:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages ofeven slightly available.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo",
-    name: "Bahubali",
-    occupation: "Teacher",
+      "We visited this Restaurant today for the First time. Every dish ordered was very tasty, Ambience is soo good, very peaceful environment. Will surely recommend them!!!",
+    name: "Anand Raj",
+    occupation: "Fusion Delights",
   },
   {
     message:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages ofeven slightly available.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo",
-    name: "Hera Peri",
-    occupation: "Student",
+      "I recently visited D99 dosa shop and had an amazing experience! The dosas were perfectly crispy and filled with delicious, flavorful fillings. The sambar and chutneys were authentic and complemented the dosas wonderfully. The staff was friendly and attentive, ensuring a pleasant dining experience. The ambiance was cozy and inviting, making it a great spot for enjoying South Indian cuisine. Highly recommend for anyone craving a fantastic dosa!",
+    name: "Mohamed Fasith",
+    occupation: "Symphony Of Delights",
+  },
+  {
+    message:
+      "We dined with 3 kids. We had to choose from so many varieties of dosa. The food taste was so good. options available for Indo Chinese food lovers as well. We loved hatrick dosa very much. Ambience and service were also good. Thanks D99 team !",
+    name: "Abdul Aziz",
+    occupation: "Symphony Of Delights",
+  },
+  {
+    message:
+      "Food was amazing.Great service and awesome place to chill with friends and family. Must try - chettinad and pasta dosa",
+    name: "Narayanan Badri",
+    occupation: "Fusion Delights",
+  },
+  {
+    message:
+      "First time I came to chennai and D99 dosa spot was one of my bucket list. Finally, I Visited and its Nice place to hang out with Friend's & Family. Ambience is too good😋 Most delicious dosa's we had. Must visit place�",
+    name: "Ankitha Adigowda",
+    occupation: "Fusion Delights",
+  },
+  {
+    message: "Nyc food & friendly service! Must try cheese and creamy pasta.",
+    name: "Manas Kutty",
+    occupation: "Symphony Of Delights",
+  },
+  {
+    message:
+      "It's such a wonderful place to hang out with family and friends. Their menu, the food, the taste and the quality and price is highly satisfactory and worth every penny. The quality and taste of the food is top notch. Especially such a friendly and hospitality surrounded environment. Much recommended.",
+    name: "A. Nancy",
+    occupation: "Symphony Of Delights",
+  },
+  {
+    message:
+      "D99 has been on my list of places to review since the very beginning and it's probably remiss that it's taken me so long to get there and especially the staff were hard working and very kind towards the customers. Great interior work and theme. All varieties of dosa ,pasta,shakes,waffle are all must try one😋 Paneer tikka and pasta dosa takes my heart ❤",
+    name: "Santhiya Kannan",
+    occupation: "Fusion Delights",
+  },
+  {
+    message:
+      "The chef was quick enough to provide the orders and also suggested their specials. The taste and the flavours were great. A small eatery with some good ambience.",
+    name: "Chandrasekhar N",
+    occupation: "Fusion Delights",
   },
 ];
 
@@ -1303,30 +1369,40 @@ export const branchesData: BranchesType[] = [
     name: "Fusion Delights",
     imgPath: "/images/d99-restaurant.jpg",
     address: "Pallavaram, Chennai - 43",
-    mapLocation: "",
-    phone: "",
-    whatsApp: "#",
-    zomatoUrl: "#",
-    swiggyUrl: "#",
+    mapLocation: "https://maps.app.goo.gl/qn3R99AkfABf7taT7",
+    phone: "918110994399",
+    whatsApp: "https://wa.me/+918110011099",
+    zomatoUrl: "https://www.zomato.com/chennai/d99-pallavaram/order",
+    swiggyUrl:
+      "https://www.swiggy.com/city/chennai/d99-anna-nagar-chrompetrest829059",
   },
   {
     name: "Symphony Of Delights",
     imgPath: "/images/d99-restaurant.jpg",
     address: "Ramapuram, Chennai - 89",
-    mapLocation: "",
-    phone: "",
-    whatsApp: "#",
-    zomatoUrl: "#",
-    swiggyUrl: "#",
+    mapLocation: "https://maps.app.goo.gl/kyRsfgo51T5j98Tu8",
+    phone: "918438999490",
+    whatsApp: "https://wa.me/+918438999490",
+    zomatoUrl: "https://www.zomato.com/chennai/d99-ramapuram/order",
+    swiggyUrl:
+      "https://www.swiggy.com/city/chennai/d99-kurinji-nagar-ramapuramrest910207",
   },
   {
     name: "Twisty Delights",
     imgPath: "/images/d99-restaurant.jpg",
     address: "Pammal, Chennai - 89",
-    mapLocation: "",
-    phone: "",
-    whatsApp: "#",
-    zomatoUrl: "#",
-    swiggyUrl: "#",
+    mapLocation: "https://maps.app.goo.gl/DjgSz6G3WGrDrTPK8",
+    phone: "917708288444",
+    whatsApp: "https://wa.me/+917708288444",
+    zomatoUrl: "https://www.zomato.com/chennai/d99-pallavaram/order",
+    swiggyUrl:
+      "https://www.swiggy.com/city/chennai/d99-anna-nagar-chrompetrest829059",
+  },
+];
+
+export const faqsData: FaqsType[] = [
+  {
+    question: "",
+    answer: "",
   },
 ];

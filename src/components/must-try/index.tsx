@@ -40,7 +40,7 @@ const MustTry = () => {
     ],
   };
   return (
-    <div id="items" className="py-[60px]">
+    <div id="items" className="py-[20px] sm:py-[60px]">
       <div className="container mx-auto">
         <h2 className={`main_title ${roboto.className}`}>Must Try</h2>
         <div className="px-3 py-1 text-sm rounded-[4px] bg-themePrimary text-black w-fit mx-auto text-center mt-4">

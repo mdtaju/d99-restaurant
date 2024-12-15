@@ -45,3 +45,14 @@ export type BranchesType = {
   zomatoUrl: string;
   swiggyUrl: string;
 };
+
+export type FaqsType = {
+  question: string;
+  answer: string;
+};
+
+export type SliderType = {
+  imgPath: string;
+  title: string;
+  subTitle: string;
+};
