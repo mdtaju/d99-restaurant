@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const SubSlider = ({ pathName }: { pathName: string; path: string }) => {
+const SubSlider = ({ pathName }: { pathName: string }) => {
   return (
     <section className="w-full px-4 md:px-0 py-[30px] bg-[#e9e9e9] grid place-items-center">
       <div className="flex items-center mb-4">
