@@ -17,6 +17,7 @@ const CustomerReviews = () => {
     speed: 500,
     slidesToScroll: 1,
     slidesToShow: 1,
+    autoplay: true,
     nextArrow: <CarouselNextBtn onClick={undefined} className="" />,
     prevArrow: <CarouselPreviousBtn onClick={undefined} className="" />,
   };

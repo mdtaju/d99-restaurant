@@ -3,6 +3,7 @@ import {
   ChefsType,
   CustomerReviewType,
   FaqsType,
+  GalleryType,
   MenuCategory,
   MustTryItemType,
   SliderType,
@@ -1212,57 +1213,57 @@ export const mustTryItems: MustTryItemType[] = [
   },
   {
     name: "Fries-Stick Dosa",
-    imgPath: "/images/slide-2.jpg",
+    imgPath: "/images/placeholder.svg",
     price: 129,
   },
   {
     name: "Creamy Pasta Dosa",
-    imgPath: "/images/slide-3.jpg",
+    imgPath: "/images/placeholder.svg",
     price: 129,
   },
   {
     name: "Chettnad Open Masala Dosa",
-    imgPath: "/images/slide-4.jpg",
+    imgPath: "/images/placeholder.svg",
     price: 129,
   },
   {
     name: "Mix-Veg Briyani Dosa",
-    imgPath: "/images/slide-5.jpg",
+    imgPath: "/images/placeholder.svg",
     price: 129,
   },
   {
     name: "Hat-Trick Dosa",
-    imgPath: "/images/slide-6.jpg",
+    imgPath: "/images/placeholder.svg",
     price: 129,
   },
   {
     name: "Mac N Cheese Pasta",
-    imgPath: "/images/slide-1.jpg",
+    imgPath: "/images/placeholder.svg",
     price: 129,
   },
   {
     name: "Choco Almond Waff Cake",
-    imgPath: "/images/slide-2.jpg",
+    imgPath: "/images/placeholder.svg",
     price: 129,
   },
   {
     name: "Peri-Peri Fries",
-    imgPath: "/images/slide-3.jpg",
+    imgPath: "/images/placeholder.svg",
     price: 129,
   },
   {
     name: "Corn Cheese Fried Momos",
-    imgPath: "/images/slide-4.jpg",
+    imgPath: "/images/placeholder.svg",
     price: 129,
   },
   {
     name: "Flavoured Mojtos",
-    imgPath: "/images/slide-5.jpg",
+    imgPath: "/images/placeholder.svg",
     price: 129,
   },
   {
     name: "Veggie Special Platter",
-    imgPath: "/images/slide-6.jpg",
+    imgPath: "/images/placeholder.svg",
     price: 129,
   },
 ];
@@ -1270,7 +1271,7 @@ export const mustTryItems: MustTryItemType[] = [
 export const chefsData: ChefsType[] = [
   {
     name: "Nemo Enim",
-    imgPath: "/images/team-1.png",
+    imgPath: "/images/placeholder.svg",
     post: "Manager",
     facebookLink: "#",
     xLink: "#",
@@ -1278,7 +1279,7 @@ export const chefsData: ChefsType[] = [
   },
   {
     name: "Monic Marty",
-    imgPath: "/images/team-2.png",
+    imgPath: "/images/placeholder.svg",
     post: "Assistent",
     facebookLink: "#",
     xLink: "#",
@@ -1286,7 +1287,7 @@ export const chefsData: ChefsType[] = [
   },
   {
     name: "Vilorano Jeo",
-    imgPath: "/images/team-3.png",
+    imgPath: "/images/placeholder.svg",
     post: "Designer",
     facebookLink: "#",
     xLink: "#",
@@ -1294,7 +1295,7 @@ export const chefsData: ChefsType[] = [
   },
   {
     name: "Reema Cyrus",
-    imgPath: "/images/team-4.png",
+    imgPath: "/images/placeholder.svg",
     post: "CEO",
     facebookLink: "#",
     xLink: "#",
@@ -1402,7 +1403,57 @@ export const branchesData: BranchesType[] = [
 
 export const faqsData: FaqsType[] = [
   {
-    question: "",
+    question: "Our menu is a celebration of flavors, textures & cultures.",
+    answer:
+      "From Classic Dosas with a modern twist to innovative fusion creations!",
+  },
+  {
+    question: "Craving tradition?",
+    answer:
+      "Savor our authentic tikka, chettinad masala dosa, bursting with aromatic spices.",
+  },
+  {
+    question: "In the mood for something delicious?",
+    answer:
+      "Try our innovative Pizza Dosa, Fries-Stick Dosa, or the one-of-a-kind Dum-Dum Briyani Dosa, each crafted to tantalize your taste buds and excite your palate.",
+  },
+  {
+    question: "Anything more???",
+    answer:
+      "We also offer a tempting selection of saucy pasta, crispy fries, and tasty nuggets to complete your meal.",
+  },
+  {
+    question: "But it doesn't stop there!",
+    answer:
+      "Indulge in sweet treats that melt in your mouth and refreshing beverages that perfectly quench your thirst. Our desserts and drinks are designed to leave you smiling and craving more.",
+  },
+  {
+    question:
+      "P:S: Experience the perfect fusion of tradition and innovation that sets us apart. We can't wait to share our love for fusion foods with you!",
     answer: "",
+  },
+];
+
+export const GalleryData: GalleryType[] = [
+  {
+    imgPath: "/images/placeholder.svg",
+  },
+  {
+    imgPath: "/images/placeholder.svg",
+  },
+  {
+    imgPath: "/images/placeholder.svg",
+  },
+  {
+    imgPath: "/images/placeholder.svg",
+  },
+  {
+    imgPath: "/images/placeholder.svg",
+  },
+  {
+    imgPath: "/images/placeholder.svg",
+  },
+  {
+    imgPath: "/images/placeholder.svg",
   },
 ];

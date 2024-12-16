@@ -7,14 +7,14 @@ const Branch = ({ item }: { item: BranchesType }) => {
   return (
     <div className="bg-themePrimary rounded-[4px] p-4 flex flex-wrap items-stretch gap-4 justify-between">
       {/* image area */}
-      <div className="w-[280px] md:w-[300px] h-[200px] relative mx-auto">
+      {/* <div className="w-[280px] md:w-[300px] h-[200px] relative mx-auto">
         <Image
           src={item.imgPath}
           alt={item.name}
           layout="fill"
           className="w-full h-full absolute object-cover object-center"
         />
-      </div>
+      </div> */}
       {/* info */}
       <div className="flex flex-wrap gap-4 items-stretch justify-between flex-grow-[1]">
         <div className="flex flex-col justify-center">

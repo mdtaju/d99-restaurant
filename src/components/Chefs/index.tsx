@@ -6,10 +6,10 @@ import Link from "next/link";
 
 const Chefs = () => {
   return (
-    <div className="py-[50px]" id="team">
+    <div className="py-[20px] md:py-[50px]" id="team">
       <div className="container mx-auto">
         <h2 className={`main_title ${roboto.className}`}>Our Team</h2>
-        <ul className="w-full max-w-[1230px] mx-auto flex items-center gap-4 justify-between overflow-x-scroll mt-[80px] no-scrollbar">
+        <ul className="w-full max-w-[1230px] mx-auto flex items-center gap-4 justify-between overflow-x-scroll mt-[30px] md:mt-[60px] no-scrollbar">
           {chefsData.map((chef, i) => (
             <li key={i}>
               <div className="relative w-[260px] h-[290px] mb-8">

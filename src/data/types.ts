@@ -56,3 +56,7 @@ export type SliderType = {
   title: string;
   subTitle: string;
 };
+
+export type GalleryType = {
+  imgPath: string;
+};

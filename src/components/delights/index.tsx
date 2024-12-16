@@ -1,12 +1,7 @@
-import { roboto } from "@/app/fonts/font-variables";
-
 const Delights = () => {
   return (
-    <div className="pt-[80px] pb-[50px]">
+    <div className="md:pt-[80px] pb-[50px]">
       <div className="w-full max-w-[950px] mx-auto px-4 lg:px-0 text-center">
-        <h2 className={`main_title ${roboto.className}`}>
-          Our Culinary Delights
-        </h2>
         <div className="mt-4 text-[16px]">
           <p>
             From Classic Dosas with a modern twist to innovative fusion
