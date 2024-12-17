@@ -9,30 +9,38 @@ import {
   SliderType,
 } from "./types";
 
+// [13:51, 17/12/2024] +91 99622 00376: Menu
+// [13:51, 17/12/2024] +91 99622 00376: Must Try
+// [13:51, 17/12/2024] +91 99622 00376: Our Spots
+// [13:52, 17/12/2024] +91 99622 00376: Happy Customers
+// [13:52, 17/12/2024] +91 99622 00376: About Us
+// [14:05, 17/12/2024] +91 99622 00376: Manu Tagline
+// [14:06, 17/12/2024] +91 99622 00376: Toast
+
 export const nav_items = [
   {
     name: "Home",
     link: "/",
   },
   {
-    name: "About",
-    link: "/about",
-  },
-  {
     name: "Menu",
     link: "/#menu",
   },
   {
-    name: "Items",
+    name: "Must Try",
     link: "/#items",
   },
   {
-    name: "Branch",
+    name: "Our Spots",
     link: "/#branch",
   },
   {
-    name: "Team",
-    link: "/about#team",
+    name: "Happy Customers",
+    link: "/#reviews",
+  },
+  {
+    name: "About Us",
+    link: "/about",
   },
 ];
 
@@ -68,19 +76,19 @@ export const menuData: MenuCategory[] = [
         menuName: "PIZZA/PASTA DOSAS",
         items: [
           {
-            name: "PANEER PEAS-CORN PIZZA DOSA 🍕",
+            name: "PANEER PEAS-CORN PIZZA DOSA",
             price: 159,
           },
           {
-            name: "MUSHROOM CORN PIZZA DOSA 🌶️",
+            name: "MUSHROOM CORN PIZZA DOSA",
             price: 159,
           },
           {
-            name: "CHETTINAD PASTA DOSA 🌶️",
+            name: "CHETTINAD PASTA DOSA",
             price: 159,
           },
           {
-            name: "CREAMY PASTA DOSA 🍕",
+            name: "CREAMY PASTA DOSA",
             price: 159,
           },
         ],
@@ -89,19 +97,19 @@ export const menuData: MenuCategory[] = [
         menuName: "DUM-DUM BRIYANI DOSAS",
         items: [
           {
-            name: "MUSHROOM BRIYANI DOSA 🌶️",
+            name: "MUSHROOM BRIYANI DOSA",
             price: 159,
           },
           {
-            name: "PANEER BRIYANI DOSA 🌶️",
+            name: "PANEER BRIYANI DOSA",
             price: 159,
           },
           {
-            name: "CORN BRIYANI DOSA 🌶️",
+            name: "CORN BRIYANI DOSA",
             price: 159,
           },
           {
-            name: "MIX-VEG BRIYANI DOSA 🌶️",
+            name: "MIX-VEG BRIYANI DOSA",
             price: 159,
           },
         ],
@@ -110,23 +118,23 @@ export const menuData: MenuCategory[] = [
         menuName: "GRAVY BUCKET DOSAS",
         items: [
           {
-            name: "PANEER TIKKA MASALA DOSA 🫑",
+            name: "PANEER TIKKA MASALA DOSA",
             price: 159,
           },
           {
-            name: "PANEER MAKHANI MASALA DOSA 🍕",
+            name: "PANEER MAKHANI MASALA DOSA",
             price: 159,
           },
           {
-            name: "CHETTINAD OPEN MASALA DOSA 🌶️",
+            name: "CHETTINAD OPEN MASALA DOSA",
             price: 159,
           },
           {
-            name: "KERALA OPEN MASALA DOSA 🍕",
+            name: "KERALA OPEN MASALA DOSA",
             price: 159,
           },
           {
-            name: "VEG MASALA FEAST DOSA 🍕",
+            name: "VEG MASALA FEAST DOSA",
             price: 159,
           },
         ],
@@ -135,15 +143,15 @@ export const menuData: MenuCategory[] = [
         menuName: "NOODLE/CHINESE DOSAS",
         items: [
           {
-            name: "AMERICAN CHOPSUEY DOSA 🫑",
+            name: "AMERICAN CHOPSUEY DOSA",
             price: 149,
           },
           {
-            name: "PANEER CHINESE MUSHROOM DOSA 🫑",
+            name: "PANEER CHINESE MUSHROOM DOSA",
             price: 149,
           },
           {
-            name: "CORN CHINESE MUSHROOM DOSA 🫑",
+            name: "CORN CHINESE MUSHROOM DOSA",
             price: 149,
           },
         ],
@@ -152,19 +160,19 @@ export const menuData: MenuCategory[] = [
         menuName: "STUFF N ROLL DOSAS",
         items: [
           {
-            name: "FRIES-STICK DOSA 🍕",
+            name: "FRIES-STICK DOSA",
             price: 149,
           },
           {
-            name: "PAN-MAYO DOSA 🍕",
+            name: "PAN-MAYO DOSA",
             price: 149,
           },
           {
-            name: "HAT-TRICK DOSA 🍕",
+            name: "HAT-TRICK DOSA",
             price: 149,
           },
           {
-            name: "JEENEE DOSA 🍕",
+            name: "JEENEE DOSA",
             price: 149,
           },
         ],
@@ -1070,7 +1078,7 @@ export const menuData: MenuCategory[] = [
     title: "Breads",
     menuItems: [
       {
-        menuName: "",
+        menuName: "Toast",
         items: [
           {
             name: "BUTTER GRILL TOAST",

@@ -16,29 +16,13 @@ const Branch = ({ item }: { item: BranchesType }) => {
         />
       </div> */}
       {/* info */}
-      <div className="flex flex-wrap gap-4 items-stretch justify-between flex-grow-[1]">
+      <div className="flex flex-wrap md:gap-4 items-stretch justify-between flex-grow-[1]">
         <div className="flex flex-col justify-center">
-          <h4 className="text-xl md:text-3xl font-medium">{item.name}</h4>
+          <h4 className="text-2xl md:text-3xl font-medium">{item.name}</h4>
           <div className="flex items-center gap-1">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-4">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-              />
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-              />
-            </svg>
-            <p className="text-xl font-medium text-[#494949]">{item.address}</p>
+            <p className="text-sm md:text-lg font-medium text-[#494949]">
+              {item.address}
+            </p>
           </div>
           <div
             className={`hidden xs:flex flex-wrap gap-3 items-center mt-6 md:mt-10 ${roboto.className}`}>
@@ -59,9 +43,9 @@ const Branch = ({ item }: { item: BranchesType }) => {
             </Link>
           </div>
         </div>
-        <div className="pl-4 border-l-2 border-themeBlack flex flex-col justify-center">
+        <div className="pl-0 sm:pl-4 border-l-0 md:border-l-2 border-themeBlack flex flex-col justify-center">
           <h5
-            className={`uppercase text-2xl font-semibold ${roboto.className}`}>
+            className={`hidden sm:block uppercase text-2xl font-semibold ${roboto.className}`}>
             Order Now
           </h5>
           <div className="flex items-center gap-4 mt-[20px] w-fit mx-auto">

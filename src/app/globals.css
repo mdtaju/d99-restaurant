@@ -99,3 +99,16 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.slick-dots li.slick-active button:before {
+  color: #fff !important;
+}
+
+.slick-dots li button:before {
+  font-size: 12px !important;
+  color: #fff !important;
+}
+
+.slick-dots {
+  bottom: 6px !important;
+}

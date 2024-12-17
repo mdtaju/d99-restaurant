@@ -3,10 +3,8 @@ import Image from "next/legacy/image";
 
 const MustTruItem = ({ item }: { item: MustTryItemType }) => {
   return (
-    <div className="w-[305px] px-4">
-      <div
-        className="w-full h-[273px] bg-white rounded-[8px] p-4"
-        style={{ boxShadow: "2px 2px 4px 0px rgba(0, 0, 0, 0.07)" }}>
+    <div className="w-[280px] md:w-[400px] px-4">
+      <div className="h-[280px] md:h-[400px] rounded-[8px] overflow-hidden">
         <div className="w-full h-full relative">
           <Image
             src={item.imgPath}

@@ -11,7 +11,7 @@ function SlierBanner() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
   };
   return (
@@ -19,9 +19,9 @@ function SlierBanner() {
       <div className="slider-container">
         <Slider {...settings}>
           {sliderData.map((item, i) => (
-            <div key={i} className="w-full bg-themePrimary">
+            <div key={i} className="w-full bg-themeBlack">
               <div
-                className="w-full h-[220px] md:h-[450px] lg:h-[520px] xl:h-[680px] bg-contain bg-center bg-no-repeat"
+                className="w-full h-[157px] xs:h-[220px] md:h-[450px] lg:h-[520px] xl:h-[680px] bg-contain bg-center bg-no-repeat"
                 style={{
                   backgroundImage: `url(${item.imgPath})`,
                   backgroundSize: "100% auto",
