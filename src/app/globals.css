@@ -31,6 +31,9 @@ body {
   .main_title {
     @apply text-2xl font-medium md:text-4xl lg:text-5xl lg:font-semibold uppercase tracking-wider text-center;
   }
+  .description {
+    @apply text-sm sm:text-lg text-center;
+  }
 }
 
 .slick-dots {

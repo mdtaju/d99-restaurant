@@ -58,7 +58,7 @@ const Header = () => {
                   onClick={() => setPathname(item.link)}
                   className={`${
                     pathname === item.link ? "text-themePrimary" : "text-white"
-                  } p-4 uppercase text-lg hover:text-white transition-all`}>
+                  } p-3 uppercase text-sm hover:text-white transition-all`}>
                   <Link href={item.link}>{item.name}</Link>
                 </li>
               );

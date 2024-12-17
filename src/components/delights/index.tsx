@@ -1,6 +1,6 @@
 const Delights = () => {
   return (
-    <div className="md:pt-[80px] pb-[50px]">
+    <div className=" pb-[50px]">
       <div className="w-full max-w-[950px] mx-auto px-4 lg:px-0 text-center">
         <div className="mt-4 text-[16px]">
           <p>

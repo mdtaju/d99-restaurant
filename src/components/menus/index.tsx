@@ -8,7 +8,7 @@ function Menus() {
       id="menu"
       className="w-full max-w-[1230px] mx-auto py-[50px] px-4 md:px-0">
       <h2
-        className={`main_title text-lg md:text-4xl lg:text-5xl ${roboto.className}`}>
+        className={`main_title text-[22px] md:text-4xl lg:text-5xl ${roboto.className}`}>
         Our Culinary Delights
       </h2>
       <div className="px-3 py-1 text-[8px] md:text-sm rounded-[4px] bg-themePrimary text-black w-fit mx-auto text-center mt-4">

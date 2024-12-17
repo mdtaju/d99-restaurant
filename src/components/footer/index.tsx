@@ -37,8 +37,9 @@ const Footer = () => {
               className="mx-auto"
             />
             <div className="flex items-center gap-3 w-fit mx-auto mt-6">
-              <Link href={"mail:helloo.d99@gmail.com"}></Link>
-              <MailFilled className="text-white text-xl hover:text-themePrimary transition-all" />
+              <Link href={"mailto:helloo.d99@gmail.com"}>
+                <MailFilled className="text-white text-xl hover:text-themePrimary transition-all" />
+              </Link>
               <Link
                 href={"https://www.instagram.com/helloo.d99/"}
                 target="_blank">

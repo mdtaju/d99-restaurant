@@ -23,11 +23,11 @@ export const nav_items = [
     link: "/",
   },
   {
-    name: "Menu",
+    name: "Our Culinary Delights",
     link: "/#menu",
   },
   {
-    name: "Must Try",
+    name: "Our Chef's Exclusives",
     link: "/#items",
   },
   {
@@ -35,11 +35,11 @@ export const nav_items = [
     link: "/#branch",
   },
   {
-    name: "Happy Customers",
+    name: "Our Happy Customers",
     link: "/#reviews",
   },
   {
-    name: "About Us",
+    name: "Our Journey",
     link: "/about",
   },
 ];
@@ -1278,36 +1278,44 @@ export const mustTryItems: MustTryItemType[] = [
 
 export const chefsData: ChefsType[] = [
   {
-    name: "Nemo Enim",
+    name: "MALARVIZHI N",
     imgPath: "/images/placeholder.svg",
-    post: "Manager",
+    post: "Founder",
     facebookLink: "#",
     xLink: "#",
-    instagramLink: "#",
+    instagramLink: "https://www.instagram.com/helloo.d99/",
   },
   {
-    name: "Monic Marty",
+    name: "K N",
     imgPath: "/images/placeholder.svg",
-    post: "Assistent",
+    post: "Co-Founder",
     facebookLink: "#",
     xLink: "#",
-    instagramLink: "#",
+    instagramLink: "https://www.instagram.com/kn__official/ ",
   },
   {
-    name: "Vilorano Jeo",
+    name: "LENIN",
     imgPath: "/images/placeholder.svg",
-    post: "Designer",
+    post: "Co-Founder",
     facebookLink: "#",
     xLink: "#",
-    instagramLink: "#",
+    instagramLink: "https://www.instagram.com/lenin_selva/",
   },
   {
-    name: "Reema Cyrus",
+    name: "ROBEL",
     imgPath: "/images/placeholder.svg",
-    post: "CEO",
+    post: "Head Chef",
     facebookLink: "#",
     xLink: "#",
-    instagramLink: "#",
+    instagramLink: "https://www.instagram.com/_rh_robel/",
+  },
+  {
+    name: "EACHIN",
+    imgPath: "/images/placeholder.svg",
+    post: "Senior Chef",
+    facebookLink: "#",
+    xLink: "#",
+    instagramLink: "https://www.instagram.com/__mr.eachin__011/",
   },
 ];
 
@@ -1399,7 +1407,7 @@ export const branchesData: BranchesType[] = [
   {
     name: "Twisty Delights",
     imgPath: "/images/d99-restaurant.jpg",
-    address: "Pammal, Chennai - 89",
+    address: "Pammal, Chennai - 75",
     mapLocation: "https://maps.app.goo.gl/DjgSz6G3WGrDrTPK8",
     phone: "917708288444",
     whatsApp: "https://wa.me/+917708288444",
